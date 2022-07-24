@@ -1,0 +1,238 @@
+main {
+    .cart_villa {
+        .row {
+            background-color: #F6F8F9;
+            position: relative;
+            padding-top: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0 70px;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                background-color: #074799;
+                height: 20%;
+                z-index: 0;
+            }
+
+            h3 {
+                text-align: center;
+                margin-bottom: 50px;
+                margin-top: 50px;
+                z-index: 1;
+            }
+
+            .big_img_villa {
+                margin-bottom: 80px;
+                z-index: 1;
+
+                img {
+                    display: block;
+                    width: 100%;
+                    height: auto;
+                    object-fit: contain;
+                }
+            }
+
+            p {
+                z-index: 1;
+                font-weight: 500;
+                font-size: 25px;
+                line-height: 40px;
+                color: #000000;
+                margin-bottom: 80px;
+            }
+        }
+    }
+
+    .villa_example {
+        margin-bottom: 80px;
+
+        .row {
+            .wrap_more_villas {
+                display: flex;
+                align-items: center;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                    object-fit: contain;
+                    display: block;
+                    width: 33.333%;
+                }
+            }
+        }
+    }
+
+    .home_for_sale {
+        padding-top: 80px;
+        padding-bottom: 63px;
+
+        .row {
+            .sale_filter {
+                margin-bottom: 50px;
+
+                .subtitle {
+                    color: #000000;
+                }
+
+                .wrap_filter {
+                    display: flex;
+                    align-items: center;
+
+                    div {
+                        padding: 10px 20px;
+                        border-radius: 3px;
+                        background-color: #003376;
+                        font-weight: 900;
+                        font-size: 18px;
+                        line-height: 25px;
+                        color: #FFFFFF;
+                        margin-right: 35px;
+                        cursor: pointer;
+
+                        &:last-of-type {
+                            margin-right: 0;
+                        }
+                    }
+
+                    .active {
+                        background-color: #0061DF;
+                    }
+                }
+            }
+
+            .wrap_filter_result {
+                display: flex;
+                align-items: center;
+                margin-bottom: 61px;
+
+                .result_villa {
+                    background: #FFFFFF;
+                    border: 1px solid #E6E9EC;
+                    width: calc(25% - (120px / 4));
+                    margin-right: 40px;
+                    display: flex;
+                    flex-direction: column;
+                    position: relative;
+
+                    .play,
+                    .screen {
+                        position: absolute;
+                        width: 46px;
+                        height: 46px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border: 3px solid #090761;
+                        border-radius: 50%;
+                        background-color: #FFFFFF;
+                        cursor: pointer;
+                    }
+
+                    .play {
+                        top: 15px;
+                        right: 15px;
+                        img {
+                            margin-left: 5px;
+                        }
+                    }
+
+                    .screen {
+                        right: 15px;
+                        top: 71px;
+                    }
+
+                    &:last-of-type {
+                        margin-right: 0;
+                    }
+
+                    img.img_villa {
+                        display: block;
+                        width: 100%;
+                        height: auto;
+                        object-fit: contain;
+                        margin-bottom: 22px;
+                    }
+
+                    .wrap-bot {
+                        padding-left: 22px;
+                        padding-right: 22px;
+                        h3 {
+                            margin-bottom: 25px;
+                            font-weight: 900;
+                            font-size: 16px;
+                            line-height: 22px;
+                            color: #000000;
+                            max-width: 245px;
+                        }
+
+                        .wrap_info {
+                            padding-bottom: 25px;
+
+                            .info {
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+
+                                img {
+                                    display: block;
+                                    margin-bottom: 5px;
+                                }
+
+                                span {
+                                    display: block;
+                                    font-weight: 900;
+                                    font-size: 14px;
+                                    line-height: 19px;
+                                    color: #696969;
+                                }
+                            }
+                        }
+                    }
+                    .hirizontal_line {
+                        width: 100%;
+                        height: 1px;
+                        background-color: #E6E9EC;
+                    }
+                    .wrap_last_menu {
+                        padding: 20px 22px;
+                        .price {
+                            font-weight: 900;
+                            font-size: 16px;
+                            line-height: 22px;
+                            color: #0D263B;
+                        }
+                        .wrap_more {
+                            display: flex;
+                            align-items: center;
+                            img {
+                                display: block;
+                                margin-right: 35px;
+                                cursor: pointer;
+                                &:last-of-type {
+                                    margin-right: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .view_all {
+                text-align: center;
+                font-weight: 900;
+                font-size: 20px;
+                line-height: 27px;
+                text-align: center;
+                text-transform: uppercase;
+                color: #F7941D;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,1095 @@
+@media (max-width: 1700px) {
+    body {
+        header {
+            .row {
+                .header_logo {
+                    img {
+                        width: 180px;
+                    }
+                }
+
+                .wrap-header-menu {
+                    ul {
+                        margin-right: 40px;
+
+                        li {
+                            margin-right: 30px;
+
+                            a {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+
+                    .header_tel {
+                        font-size: 18px;
+                    }
+
+                    .contact_us {
+                        font-size: 16px;
+                        width: 140px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1600px) {
+    footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        .row {
+            .footer_logo {
+                img {
+                    width: 180px;
+                }
+            }
+
+            .adress {
+                font-size: 14px;
+
+                &::after {
+                    display: none;
+                }
+            }
+
+            .office {
+                font-size: 14px;
+
+                &::after {
+                    display: none;
+                }
+            }
+
+            .mesangers {
+                a {
+                    width: 40px;
+                    height: 40px;
+
+                    &:first-of-type {
+                        margin-right: 10px;
+                    }
+                }
+            }
+
+            .partner {
+                img {
+                    width: 130px;
+                }
+            }
+        }
+    }
+
+    main {
+        .misssion {
+            .row {
+                .wrap_mission_img {
+                    padding-top: 30px;
+
+                    .mission_text {
+                        h4 {
+                            font-size: 24px;
+                            line-height: 32px;
+                        }
+
+                        p {
+                            font-size: 18px;
+                            line-height: 28px;
+                        }
+
+                        ul {
+                            font-size: 16px;
+                            line-height: 26px;
+                        }
+                    }
+                }
+            }
+        }
+        .realtors {
+            .row {
+                &::before {
+                    display: none;
+                }
+                flex-wrap: wrap;
+                .cart_realtor {
+                    width: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-bottom: 30px;
+                    .wrap_realtor_img {
+                        max-width: 340px;
+                    }
+                    .positon {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width: 1400px) {
+    .btn {
+        padding: 10.5px 0;
+    }
+
+    .subtitle {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    body {
+        header {
+            .row {
+                .wrap-header-menu {
+                    .contact_us {
+                        font-size: 14px;
+                        width: 130px;
+                    }
+
+                    ul {
+                        margin-right: 30px;
+
+                        li {
+                            margin-right: 20px;
+
+                            a {
+                                font-size: 13px;
+                            }
+                        }
+                    }
+
+                    .header_tel {
+                        font-size: 16px;
+                    }
+
+                    .header_tel {
+                        font-size: 15px;
+                        margin-right: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    main {
+        .wrap_realtor_cart {
+            .row {
+                .right_text {
+                    .wrap_title {
+                        margin-bottom: 110px;
+                    }
+                }
+            }
+        }
+        .home_for_sale {
+            .row {
+                .sale_filter {
+                    flex-direction: column;
+                    align-items: start;
+                    .subtitle {
+                        margin-bottom: 20px;
+                    }
+                }
+                .wrap_filter_result {
+                    flex-wrap: wrap;
+                    .result_villa {
+                        width: calc(50% - (40px / 2));
+                        margin-right: 40px;
+                        margin-bottom: 40px;
+                        &:nth-child(2n) {
+                            margin-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+        .contact_us {
+            .row {
+                flex-direction: column;
+                div {
+                    width: 100%;
+                }
+                .wrap_adress {
+                    padding: 30px;
+                    h3 {
+                        font-size: 18px;
+                        line-height: 21px;
+                        margin-bottom: 30px;
+                    }
+                    .form_adress {
+                        p {
+                            font-size: 24px;
+                            line-height: 32px;
+                            margin-bottom: 30px;
+                        }
+                        .wrap_meassage {
+                            a {
+                                width: 40px;
+                                height: 40px;
+                                margin-right: 15px;
+                                img {
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .wrap_form {
+                    padding: 30px;
+                    form {
+                        div {
+                            flex-direction: column;
+                            margin-bottom: 0;
+                            .first {
+                                margin-right: 0;
+                            }
+                            label {
+                                margin-right: 0;
+                                width: 100%;
+                                margin-bottom: 20px;
+                                input {
+                                    padding: 10px 0;
+                                }
+                            }
+                        }
+                        .message {
+                            input {
+                                padding: 10px 0;
+                            }
+                        }
+                        input[type="submit"] {
+                            width: 100%;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+@media (max-width: 1200px) {
+    body {
+        header {
+            padding-top: 30px;
+            padding-bottom: 30px;
+
+            .row {
+                .wrap-header-menu {
+                    position: fixed;
+                    top: 115.92px;
+                    left: 100%;
+                    right: -100%;
+                    width: 100%;
+                    z-index: 100;
+                    flex-direction: column;
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+                    background-color: #FFFFFF;
+                    transition: 0.6s;
+                    height: 100%;
+
+                    ul {
+                        flex-direction: column;
+                        margin-right: 0;
+                        margin-bottom: 40px;
+
+                        li {
+                            margin-right: 0;
+                            margin-bottom: 20px;
+
+                            &:last-of-type {
+                                margin-bottom: 0;
+                            }
+
+                            a {
+                                font-size: 16px;
+                            }
+                        }
+                    }
+
+                    .header_tel {
+                        margin-right: 0;
+                        font-size: 20px;
+                        margin-bottom: 40px;
+                    }
+                }
+
+                .wrap-mobile-menu {
+                    display: block;
+
+                    .burger {
+                        position: relative;
+                        width: 35px;
+                        height: 25px;
+
+                        span {
+                            position: absolute;
+                            width: 100%;
+                            height: 4px;
+                            border-radius: 3px;
+                            background-color: #074799;
+                            display: block;
+                            transition: 0.4s;
+
+                            &:nth-child(1) {
+                                top: 0;
+                            }
+
+                            &:nth-child(2) {
+                                top: 50%;
+                                transform: translateY(-50%);
+                            }
+
+                            &:nth-child(3) {
+                                bottom: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    main {
+        section.top-banner {
+            .row {
+                .search_content {
+                    transform: translate(-50%, -50%);
+
+                    p {
+                        font-size: 18px;
+                        line-height: 27px;
+                    }
+
+                    h1 {
+                        font-size: 38px;
+                        line-height: 42px;
+                    }
+
+                    form {
+                        label {
+                            input {
+                                width: 500px;
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+
+                &::before {
+                    left: 0;
+                    right: 0;
+                }
+            }
+        }
+
+        section.welcom_to {
+            .wrap-hamilton {
+                flex-wrap: wrap;
+
+                .hamilton {
+                    width: 50%;
+                }
+            }
+        }
+
+        section.villas-example {
+            .row {
+                .wrap-villa-cart {
+                    .cart {
+                        padding-left: 15px;
+                        padding-right: 15px;
+
+                        h3 {
+                            font-size: 32px;
+                        }
+                    }
+                }
+            }
+        }
+
+        section.services {
+            .row {
+                flex-wrap: wrap;
+
+                .service {
+                    width: 50%;
+                }
+            }
+        }
+
+        .misssion {
+            .row {
+                .wrap_mission_img {
+                    flex-direction: column;
+
+                    &:first-of-type {
+                        .mission_img {
+                            margin-bottom: 30px;
+                        }
+                    }
+
+                    &:last-of-type {
+                        flex-direction: column-reverse;
+                    }
+
+                    .mission_text {
+                        width: 80%;
+
+                        h4,
+                        p {
+                            max-width: 100%;
+                        }
+
+                        p {
+                            margin-bottom: 30px;
+                        }
+                    }
+
+                    .mission_img {
+                        width: 80%;
+                    }
+                }
+            }
+        }
+
+        .wrap_realtor_cart {
+            .row {
+                padding: 50px;
+                .left_cart {
+                    margin-right: 40px;
+                    .realtor_img {
+                        width: 300px;
+                    }
+                }
+                .right_text {
+                    .all_text {
+                        font-size: 21px;
+                        line-height: 31px;
+                    }
+                }
+            }
+        }
+    }
+
+    body {
+        header {
+            .row {
+                .wrap-header-menu {
+                    ul {
+                        margin-right: 0;
+
+                        li {
+                            margin-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 991px) {
+    .btn {
+        font-size: 16px;
+    }
+
+    main {
+        section.villas-example {
+            .row {
+                .wrap-villa-cart {
+                    height: auto;
+                    flex-direction: column;
+
+                    &:last-of-type {
+                        flex-direction: column-reverse;
+                        // .villa {
+                        //     margin-bottom: 30px;
+                        // }
+                    }
+
+                    .cart {
+                        width: 100%;
+                        padding: 15px;
+
+                        h2 {
+                            margin-bottom: 20px;
+                        }
+
+                        h3 {
+                            font-size: 16px;
+                            line-height: 21px;
+                        }
+
+                        .villa_btn {
+                            font-size: 16px;
+                        }
+                    }
+
+                    .villa {
+                        width: 100%;
+                        height: 400px;
+
+                        img {
+                            object-fit: contain;
+                        }
+                    }
+                }
+            }
+        }
+
+        section.communities {
+            .row {
+                .villa {
+                    width: calc(50% - (20px / 2));
+                    margin-right: 20px;
+
+                    &:nth-child(2n) {
+                        margin-right: 0;
+                    }
+
+                    &:nth-child(3n) {
+                        margin-right: auto;
+                    }
+                }
+            }
+        }
+
+        section.ready {
+            .row {
+                h2 {
+                    font-size: 24px;
+                    line-height: 32px;
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    font-size: 18px;
+                    line-height: 27px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+
+        .wrap_realtor_cart {
+            .row {
+                &::before {
+                    height: 6%;
+                }
+                flex-direction: column;
+                padding: 15px;
+                .left_cart {
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 150px;
+                }
+                .right_text {
+                    .wrap_title {
+                        margin-bottom: 0;
+                        position: absolute;
+                        top: 40px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        h3 {
+                            margin-right: 50px;
+                        }
+                        .series_number {
+                            font-size: 21px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        .row {
+            flex-direction: column;
+
+            .footer_logo {
+                margin-bottom: 20px;
+            }
+
+            .adress {
+                margin-bottom: 20px;
+            }
+
+            .office {
+                margin-bottom: 20px;
+            }
+
+            .mesangers {
+                margin-bottom: 20px;
+            }
+        }
+
+        .row-bottom {
+
+            .series,
+            .copyright {
+                font-size: 16px;
+            }
+        }
+    }
+
+    main {
+        .first_section_about_us {
+            .row {
+                padding-top: 30px;
+
+                h2 {
+                    font-size: 21px;
+                    line-height: 28px;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+
+        .agent_spezialize {
+            .title_spezialize {
+                padding: 40px;
+                font-size: 24px;
+                line-height: 36px;
+            }
+
+            .row {
+                .service {
+                    padding: 40px;
+
+                    .wrap_img_spezialize {
+                        margin-right: 50px;
+                    }
+
+                    .spezialize_text {
+                        h2 {
+                            margin-bottom: 20px;
+                        }
+
+                        p {
+                            font-size: 18px;
+                            line-height: 28px;
+                        }
+                    }
+                }
+            }
+        }
+        .realtors {
+            .row {
+                .cart_realtor {
+                    width: 100%;
+                }
+            }
+        }
+        .east_bay {
+            .row {
+                .villa {
+                    width: calc(50% - (20px / 2));
+                    margin-right: 20px;
+                    &:nth-child(3n) {
+                        margin-right: auto;
+                    }
+                    &:nth-child(2n) {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+
+        .cart_villa {
+            .row {
+                p {
+                    font-size: 21px;
+                    line-height: 34px;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 767px) {
+    .title {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 30px;
+    }
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    main {
+        section.top-banner {
+            .row {
+                .search_content {
+                    p {
+                        font-size: 14px;
+                        line-height: 21px;
+                    }
+
+                    h1 {
+                        font-size: 28px;
+                        line-height: 32px;
+                        margin-bottom: 20px;
+                    }
+
+                    form {
+                        label {
+                            input {
+                                padding: 16.5px 0 16.5px 78px;
+                                font-size: 14px;
+                                width: 420px;
+
+                                &::placeholder {
+                                    opacity: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        section.welcom_to {
+            .row {
+                p {
+                    font-size: 18px;
+                    line-height: 27px;
+                }
+            }
+
+            .wrap-hamilton {
+                justify-content: center;
+
+                .hamilton {
+
+                    // min-width: 100%;
+                    p {
+                        font-size: 18px;
+                        line-height: 28px;
+                    }
+                }
+            }
+        }
+
+        section.villas-example {
+            .row {
+                .wrap-villa-cart {
+                    .villa {
+                        img {
+                            object-fit: cover;
+                        }
+                    }
+                }
+            }
+        }
+
+        .misssion {
+            padding-bottom: 40px;
+        }
+
+        .testimonials {
+            .row {
+                .quotes {
+                    margin-bottom: 25px;
+                }
+                .swiper {
+                    .review {
+                        p {
+                            font-size: 16px;
+                            line-height: 28px;
+                        }
+                    }
+                }
+            }
+        }
+        .east_bay {
+            .wrap_east_bay_title {
+                padding: 30px 0;
+                h3 {
+                    font-size: 21px;
+                    line-height: 32px;
+                }
+            }
+            .row {
+                padding: 15px;
+                .villa {
+                    width: 100%;
+                    margin-right: 0;
+                    &:nth-child(3n) {
+                        margin-right: auto;
+                    }
+                    &:nth-child(2n) {
+                        margin-right: auto;
+                    }
+                    img {
+                        margin-bottom: 15px;
+                    }
+                    .villa_title {
+                        font-size: 21px;
+                        line-height: 28px;
+                    }
+                }
+            }
+        }
+
+        .cart_villa {
+            .row {
+                padding: 0 15px;
+                h3 {
+                    margin: 25px 0;
+                }
+                p {
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+                .big_img_villa {
+                    margin-bottom: 40px;
+                }
+            }
+        }
+
+        .villa_example {
+            .row {
+                .wrap_more_villas {
+                    flex-wrap: wrap;
+                    img {
+                        width: 100%;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+        .home_for_sale {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            .row {
+                .sale_filter {
+                    margin-bottom: 30px;
+                    .wrap_filter {
+                        flex-direction: column;
+                        align-items: flex-start;
+                        div {
+                            margin-bottom: 15px;
+                        }
+                    }
+                }
+                .wrap_filter_result {
+                    margin-bottom: 0;
+                    .result_villa {
+                        width: 100%;
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+
+        section.welcom_to {
+            .wrap-hamilton {
+                .hamilton {
+                    min-width: auto;
+                }
+            }
+        }
+
+        .find_out_more {
+            .row {
+                padding-top: 30px;
+            }
+        }
+    }
+
+    .scrollup {
+        width: 30px;
+        height: 30px;
+    }
+
+    
+}
+
+
+@media (max-width: 576px) {
+    main {
+        section.communities {
+            .row {
+                .villa {
+                    width: 100%;
+                    margin-right: 0;
+
+                    &:nth-child(2n) {
+                        margin-right: auto;
+                    }
+
+                    &:nth-child(3n) {
+                        margin-right: auto;
+                    }
+
+                    img {
+                        margin-bottom: 15px;
+                    }
+
+                    h4 {
+                        font-size: 21px;
+                        line-height: 28px;
+                    }
+                }
+            }
+        }
+
+        v section.services {
+            .row {
+                .service {
+                    width: 100%;
+                }
+            }
+        }
+
+        .agent_spezialize {
+            .row {
+                .service {
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    flex-direction: column;
+                    align-items: center;
+
+                    .wrap_img_spezialize {
+                        margin-right: 0;
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        section.top-banner {
+            .row {
+                img {
+                    height: 400px;
+                    object-fit: cover;
+                }
+
+                .search_content {
+                    width: 100%;
+
+                    form {
+                        display: flex;
+                        justify-content: center;
+
+                        label {
+                            width: 90%;
+                            input {
+                                width: 100%;
+                                padding-left: 60px;
+                                background-position-x: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .misssion {
+            .row {
+                .wrap_mission_img {
+                    .mission_text {
+                        width: 100%;
+                    }
+
+                    .mission_img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        .realtors {
+            .row {
+                padding: 15px;
+                .cart_realtor {
+                    margin-bottom: 50px;
+                    .wrap_realtor_img {
+                        margin-bottom: 15px;
+                    }
+                    .admin {
+                        margin-bottom: 15px;
+                    }
+                    .positon {
+                        margin-bottom: 10px;
+                        font-size: 18px;
+                        line-height: 32px;
+                    }
+                    .wrap_messangers {
+                        a {
+                            margin-right: 15px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .wrap_realtor_cart {
+            .row {
+                .left_cart {
+                    margin-left: 0;
+                    .realtor_img {
+                        width: 275px;
+                    }
+                }
+                .right_text {
+                    .wrap_title {
+                        flex-direction: column;
+                        align-items: flex-start;
+                        top: 25px;
+                        left: 15px;
+                        transform: translateX(0);
+                        &::after {
+                            display: none;
+                        }
+                        h3 {
+                            margin-right: 0;
+                            margin-bottom: 15px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .cart_villa {
+            .row {
+                &::before {
+                    height: 11%;
+                }
+            }
+        }
+    }
+
+    footer {
+        .row {
+            .adress {
+                max-width: 300px;
+                text-align: center;
+                line-height: 24px;
+            }
+        }
+
+        .row-bottom {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
+}
+
+@media (max-width: 320px) {}

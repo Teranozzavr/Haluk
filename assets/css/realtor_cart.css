@@ -1,0 +1,11 @@
+main .wrap_realtor_cart .row {
+  padding: 50px 90px 50px 50px;
+  background-color: #F6F8F9;
+  position: relative;
+}
+
+main .wrap_realtor_cart .row .left_cart .realtor_img {
+  display: block;
+  margin-bottom: 37px;
+}
+/*# sourceMappingURL=realtor_cart.css.map */

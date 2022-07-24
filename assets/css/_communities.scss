@@ -1,0 +1,46 @@
+main {
+    .east_bay {
+        padding-bottom: 63px;
+        .wrap_east_bay_title {
+            padding: 50px 0;
+            background-color: #074799;
+
+            h3 {
+                text-align: center;
+            }
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 25px;
+            background-color: #F6F8F9;
+            .villa {
+                width: calc(33.333% - (40px / 3));
+                margin-right: 20px;
+                margin-bottom: 25px;
+                display: block;
+                text-decoration: none;
+                &:nth-child(3n) {
+                    margin-right: 0;
+                }
+                &:nth-child(n + 9) {
+                    margin-bottom: 0;
+                }
+                img {
+                    width: 100%;
+                    height: auto;
+                    object-fit: contain;
+                    display: block;
+                    margin-bottom: 25px;
+                }
+                .villa_title {
+                    font-weight: 500;
+                    font-size: 25px;
+                    line-height: 34px;
+                    color: #0D263B;
+                }
+            }
+        }
+    }
+}

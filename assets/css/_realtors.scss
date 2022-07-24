@@ -1,0 +1,85 @@
+main {
+    .realtors {
+        margin-bottom: 55px;
+        .row {
+            padding: 50px 50px 78px;
+            background-color: #F6F8F9;
+            position: relative;
+            &::before {
+                content: "";
+                position: absolute;
+                background-color: #074799;
+                top: 0;
+                left: 0;
+                right: 0;
+                height: 45%;
+                z-index: 0;
+            }
+            .cart_realtor {
+                z-index: 1;
+                .wrap_realtor_img {
+                    margin-bottom: 40px;
+                    display: block;
+
+                    img {
+                        object-fit: contain;
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+                .admin {
+                    font-weight: 500;
+                    font-size: 25px;
+                    line-height: 34px;
+                    color: #074799;
+                    display: block;
+                    margin-bottom: 30px;
+                    text-decoration: none;
+                }
+                .positon {
+                    font-weight: 500;
+                    font-size: 25px;
+                    line-height: 34px;
+                    color: #000000;
+                    max-width: 315px;
+                    min-height: 65px;
+                    margin-bottom: 30px;
+                }
+                .wrap_messangers {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 25px;
+                    a {
+                        width: 48px;
+                        height: 48px;
+                        background-color: #FFFFFF;
+                        border: 1px solid #000000;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-right: 24px;
+                        transition: 0.4s;
+                        &:hover {
+                            transform: scale(1.2);
+                        }
+                        &:last-of-type {
+                            margin-right: 0;
+                        }
+                    }
+                }
+                .read_more {
+                    font-weight: 900;
+                    font-size: 20px;
+                    line-height: 27px;
+                    text-transform: uppercase;
+                    color: #F7941D;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .title_following {
+        margin-bottom: 50px;
+    }
+}
